@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/riot-ap/(.*)",
+      "destination": "https://ap.api.riotgames.com/$1"
+    },
+    {
+      "source": "/riot-asia/(.*)",
+      "destination": "https://asia.api.riotgames.com/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
